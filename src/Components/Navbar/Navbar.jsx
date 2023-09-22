@@ -13,7 +13,9 @@ const Navbar = () => {
     <nav className='app__navbar'>
         <div className='app__navbar-logo'>
             <img src={images.logo} alt='logo' />
+            
         </div>
+        <h1 className='app__navbar-header'>CookieJar</h1>
         <ul className='app__navbar-links'>
             {['home', 'about', 'work', 'skills', 'contact'].map((item)=> (
                 <li className='app__flex p-text' key={`link-${item}`}>

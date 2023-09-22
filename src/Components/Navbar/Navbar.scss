@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-grow: 0.1;
 
     img {
         width: 60px;
@@ -28,10 +29,14 @@
     }
 }
 
+.app__navbar-header {
+    font-size: 2.4rem;
+    flex-grow: 0.3;
+}
+
 .app__navbar-links {
     display: flex;
     flex: 1;
-    justify-content: center;
     align-items: center;
     list-style: none;
 

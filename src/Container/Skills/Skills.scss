@@ -151,3 +151,33 @@
       line-height: 2 !important;
     }
   }
+
+  .head-text-mobile,
+  .head-text-SE{
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--black-color);
+    text-transform: capitalize;
+
+  } 
+  .head-text-SE {
+    @media screen and(min-width: 768px){
+        display: block;
+    }
+
+    @media screen and(max-width: 576px){
+        display: none;
+    }
+  }
+
+  .head-text-mobile {
+    @media screen and(min-width: 577px){
+        display: none;
+    }
+
+    @media screen and(max-width: 576px){
+        display: block;
+        font-size: 2rem;
+    }
+  }
