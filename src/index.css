@@ -10,8 +10,12 @@
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
-  --buttonBg-color: rgb(35,59,70);
-  --background-color: linear-gradient(270deg, rgba(30,37,64,1) 0%, rgba(35,40,70,1) 100%);
+  --buttonBg-color: rgb(35, 59, 70);
+  --background-color: linear-gradient(
+    270deg,
+    rgba(30, 37, 64, 1) 0%,
+    rgba(35, 40, 70, 1) 100%
+  );
 }
 
 * {
@@ -23,4 +27,8 @@
 
 body {
   background-color: var(--background-color);
+}
+
+.dots__hidden {
+  visibility: hidden;
 }
